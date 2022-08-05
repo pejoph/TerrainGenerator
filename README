@@ -5,7 +5,7 @@ The terrain generation is achieved by creating a mesh and setting the heights at
 corresponding value of fractal noise. The water level is then set and the colours of each face of the mesh are
 set based on this. Trees and rocks are spawned in on the grass level and the sea and beach levels, respectively.
 
-The generated world is populated with tesselating square tiles. When the camera is moving, these tiles wrap around
+The generated world is populated with tessellating square tiles. When the camera is moving, these tiles wrap around
 and regenerate with new position values to give the appearance of an infinite world.
 
 To achieve the desired aesthetic of the water, a shader was developed using Unity's Shader Graph which produces foam,
