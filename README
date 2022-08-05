@@ -1,0 +1,17 @@
+Here is a procedural terrain generation tool in which users can create a wide variety of different 3D terrains
+by adjusting initial generation parameters using sliders.
+
+The terrain generation is achieved by creating a mesh and setting the heights at each vertex equal to a
+corresponding value of fractal noise. The water level is then set and the colours of each face of the mesh are
+set based on this. Trees and rocks are spawned in on the grass level and the sea and beach levels, respectively.
+
+The generated world is populated with tesselating square tiles. When the camera is moving, these tiles wrap around
+and regenerate with new position values to give the appearance of an infinite world.
+
+To achieve the desired aesthetic of the water, a shader was developed using Unity's Shader Graph which produces foam,
+refraction, and a depth gradient. Shader Graph was also used to create the world-bending effect.
+
+Video can be found here:
+https://www.youtube.com/watch?v=yUtS7xOZ7RM
+
+Made in the Unity game engine.
